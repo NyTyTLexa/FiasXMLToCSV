@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateGARBDFIAS", "UpdateGARBDFIAS\UpdateGARBDFIAS.csproj", "{0D98F501-7A56-445B-BA2A-1F2F00D2D9BF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiasXMLToCSV.Server", "FiasXMLToCSV.Server\FiasXMLToCSV.Server.csproj", "{0D98F501-7A56-445B-BA2A-1F2F00D2D9BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiasXMLToCSV.Test", "FiasXMLToCSV.Test\FiasXMLToCSV.Test.csproj", "{5B647EF7-726B-4D0D-B9FE-0EA8E2F181CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0D98F501-7A56-445B-BA2A-1F2F00D2D9BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D98F501-7A56-445B-BA2A-1F2F00D2D9BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D98F501-7A56-445B-BA2A-1F2F00D2D9BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B647EF7-726B-4D0D-B9FE-0EA8E2F181CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B647EF7-726B-4D0D-B9FE-0EA8E2F181CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B647EF7-726B-4D0D-B9FE-0EA8E2F181CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B647EF7-726B-4D0D-B9FE-0EA8E2F181CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
